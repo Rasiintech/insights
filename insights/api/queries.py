@@ -105,13 +105,7 @@ def pivot(
             df[value_column] = df[value_column].apply(lambda x: 1)
 
     pivot = pd.pivot_table(
-        df,
-        index=indexes,
-        columns=columns,
-        values=values,
-        sort=False,
-        fill_value=0,
-        aggfunc="sum",
+        df, index=indexes, columns=columns, values=values, sort=False, fill_value=0, aggfunc="sum" , margins = True ,  margins_name='Total'
     )
     pivot = pivot.reset_index()
     pivot = pivot.to_dict("records")

@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "autoname": "format:DSH-{####}",
  "creation": "2022-07-14 13:07:35.985838",
  "doctype": "DocType",
@@ -40,7 +41,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-13 19:58:40.057027",
+ "modified": "2024-10-10 18:34:33.798588",
  "modified_by": "Administrator",
  "module": "Insights",
  "name": "Insights Dashboard",
